@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,700;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+}
+.container-fluid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 13%;
+  height: 100vh;
+ 
+}
+
+#div1 >h1{
+    color: #1877F2;
+    font-size: 3.5em;
+    font-weight: bold;
+   
+}
+#div1 >span{
+    
+    font-size: 1.9em;
+}
+#div2{
+    width: 700px;
+   
+    margin: 0 20px;
+    
+}
+form{
+    background-color: #fff;
+    width: 550px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    height: 650px;
+}
+form > h2{
+    background-color: #fff;
+    font-size: 1.9em;
+    font-weight: bold;
+
+}
+form > .sous-titre{
+    color: #787373;
+    background-color: #fff;
+    
+}
+form > hr{
+    margin: 10px 0;
+}
+form > input{
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 14px 10px 0 ;
+    border: 1px solid #787373;
+    width: 239px;
+}
+form .section1{
+    background-color: #fff;
+}
+form .section1 > input{
+    display: block;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+    border: 1px solid #787373;
+}
+form .section2 {
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.section2 p{
+background-color: #fff;
+font-size: 13px;
+color: #787373;
+margin-bottom: 10px;
+
+
+}
+.section2 select{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 160px;
+    margin-right: 5px;
+    outline: none;
+    border: 1px solid #787373;
+    background-color: #fff;
+    
+
+}
+form .section3 {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.section3 p{
+background-color: #fff;
+font-size: 13px;
+margin-bottom: 15px;
+color: #787373;
+
+}
+.section3 label{
+    
+    border: 1px solid #787373;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0 10px 0 0;
+    width: 200px;
+    font-size: 17px;
+    background-color: #fff;
+    
+}
+label > input{
+    margin-left: 43px;
+}
+.section4{
+    margin: 15px 0;
+    font-size: 12px;
+    padding: 0;
+    background-color: #fff;
+    color: #787373;
+    
+}
+.section4 p{
+    background-color: #fff;
+}
+.section4 p:nth-of-type(2){
+    margin-top: 18px;
+}
+.section4 a {
+    text-decoration: none;
+    color: #1877F2;
+    background-color: #fff;
+}
+.inscription{
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inscription button{
+    background-color: #1877F2;
+    padding: 8px;
+    border-radius: 6px;
+    width: 150px;
+    border: 1px solid #1877F2;
+    margin-left: 230px;
+    margin-top: 10px;
+    
+    
+}
+.inscription a{
+    background-color: #1877F2;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+   
+    
+    
+}
+.inscription > .compte{
+    text-decoration: none;
+    background-color: #fff;
+    color: #1877F2;
+    font-size: 13px;
+}
+
+.numero_tel{
+    display: flex;
+    
+    width: 100%;
+   padding: 0 ;
+    margin: 10px 0px ;
+}
+.numero_tel > input{
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 0 10px 0px 10px ;
+    border: 1px solid #787373;
+    width: 416px;
+}
+.numero_tel .code_pays{
+    padding: 10px 4px ;
+    border: 1px solid #787373;
+   
+}
